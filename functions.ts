@@ -22,3 +22,9 @@ return (a+b)
 
 let result: number =add(15,18);
 console.log(" the sum is"+result);
+
+//Arrow function without parameter
+let dance:()=>void=()=>{
+    console.log("Dancing is fun- using arrow function")
+}
+dance();
