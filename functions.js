@@ -23,3 +23,6 @@ let dance = () => {
     console.log("Dancing is fun- using arrow function");
 };
 dance();
+//arrow function with parameter
+let sum = (a, b) => a + b;
+console.log(add(2, 3));

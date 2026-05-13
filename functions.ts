@@ -28,3 +28,8 @@ let dance:()=>void=()=>{
     console.log("Dancing is fun- using arrow function")
 }
 dance();
+
+//arrow function with parameter
+
+let sum=(a:number,b:number):number=> a+b;
+console.log(add(2,3));
