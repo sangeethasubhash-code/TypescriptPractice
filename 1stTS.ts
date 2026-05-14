@@ -9,3 +9,4 @@
 //tsc filename.ts - to compile ts file to js file
 
 console.log("hello world")
+
