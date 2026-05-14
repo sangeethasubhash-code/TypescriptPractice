@@ -1,19 +1,20 @@
-let num1: number = 10;
-if (num1 > 0) {
+
+let num2: number = 10;
+if (num2 > 0) {
     console.log("num1 is positive");
 }
-else if (num1===0) {
+else if (num2===0) {
     console.log("num1 is zero");
 }
 else 
 {
-    console.log("num1 is not positive");
+    console.log("number is not positive");
 }
 
 //switch
 
-let weekday:String = "wednesday";
-switch (weekday) {
+let weekdays:String = "wednesday";
+switch (weekdays) {
     case "monday":
         console.log("firstday");
         break;
@@ -41,16 +42,16 @@ for (let i: number=0; i< 5; i++) {
 
 //while loop
 console.log("while loop")
-let j: number = 0;
-while (j < 8) {
-    console.log(j);
-    j++;
+let z: number = 0;
+while (z < 8) {
+    console.log(z);
+    z++;
 }
 
 //do while loop
 console.log("do while loop")
-let s:string = "hi sangita";
+let str:string = "hi sangita";
 do {
-    console.log(s);
+    console.log(str);
 } 
 while (false);
